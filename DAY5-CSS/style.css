@@ -1,0 +1,8 @@
+.cls{
+    background-image: repeating-conic-gradient( red ,yellow ,blue,pink,black,green);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 60%;
+    
+}
