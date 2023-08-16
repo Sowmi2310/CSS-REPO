@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>text overflow</title>
-<style> 
-.a {
-  white-space: nowrap; 
-  
-  overflow: hidden;
-  text-overflow: clip; 
-  border: 1px solid black;
-}
+  <title>text overflow</title>
+  <style>
+    .sow1 input{
+      text-overflow: ellipsis;
+    }
+    .sow2 input{
+      text-overflow: clip;
+    }
+    .sow3 input{
+      overflow: nowrap;
+      text-overflow: "--------";
+    }
+    .sow4{
+      text-overflow: ellipsis;
+    }
+    input{
+      text-overflow: inherit;
+    }
 
-.b {
-  white-space: nowrap; 
-  
-  overflow: hidden;
-  text-overflow: ellipsis; 
-  border: 1px solid black;
-}
-
-
-
-</style>
+  </style>
 </head>
 <body>
+  <div class="sow1">
+    <input type="text" value="In the broadest sense, is the physical world or universe. Nature can refer to the phenomena of the physical world, and also to life in general.">
+  </div>
+  <br>
+  <div class="sow2">
+    <input type="text" value="In the broadest sense, is the physical world or universe. Nature can refer to the phenomena of the physical world, and also to life in general.">
+  </div>
+  <br>
+  <div class="sow3">
+    <input type="text" value="In the broadest sense, is the physical world or universe. Nature can refer to the phenomena of the physical world, and also to life in general.">
+  </div>
+  <br>
+  <div class="sow4">
+    <input type="text" value="In the broadest sense, is the physical world or universe. Nature can refer to the phenomena of the physical world, and also to life in general.">
+    </div>
+    
+  </div>
 
-<h1>NATURE</h1>
-<div class="a">Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science</div>
-<br>
-<br>
 
-<div class="b">Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.</div>
 </body>
 </html>
