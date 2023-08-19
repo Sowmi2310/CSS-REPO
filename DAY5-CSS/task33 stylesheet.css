@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient( yellow,green,grey,orange);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 50px;
+    
+}
+
+
+.C1{
+    background-color: blueviolet;
+}
+h1{
+    background-color: aqua;
+}
+p{
+    background-color: brown;}
+pre{
+    background-color: rgb(233, 26, 198);
+}
+footer{
+    background-color: darkkhaki;
+}
+table{
+    border: solid 10px black ;
+    background-color: deeppink;
+    
+    
+}

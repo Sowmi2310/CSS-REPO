@@ -1,0 +1,23 @@
+.c1:hover{
+background-color: aqua;
+border: 20px black solid;
+}
+.c2:link{
+    
+    font-style: italic;
+}
+.c3:visited{
+    color: rgb(191, 202, 40);
+}
+.pro li:first-child{
+    color: red;
+}
+.pro1 li:nth-child(2n){
+    color: darkmagenta;
+}
+.pro2 li:nth-child(even){
+    color: rgb(12, 197, 95);
+}
+.pro3 li:nth-child(odd){
+    color: yellow
+}

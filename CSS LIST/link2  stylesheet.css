@@ -1,0 +1,36 @@
+.c1 p::after{
+content: "PEACE!!";
+color: rgb(146, 46, 113);
+}
+.c2 p::before{
+content: "PEACE!!";
+color: rgb(145, 54, 148);
+}
+.c3 p::first-line{
+    background-color: greenyellow;
+}
+.c4 p::first-letter{
+    background-color: aqua;
+    color: blue;
+    font-style: italic;
+}
+.c5 p::selection{
+    background-color: rgb(100, 237, 107);
+    color: black;
+}
+.c6 li::marker{
+    color: crimson;
+}
+.c7 p::first-letter{
+    color: black;
+    background-color: blueviolet;font-family: 'Courier New', Courier, monospace;
+
+}
+.c7 p::first-line{
+    background-color: darkgoldenrod;
+    color: black;
+}
+.c7 h3::after{
+    content: "!!!.......";
+    color: chartreuse;
+}

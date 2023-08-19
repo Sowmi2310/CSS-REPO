@@ -1,0 +1,10 @@
+.f{
+    border: solid 10px palevioletred;
+    background-color: palevioletred;
+width: 500px;
+text-align: center;margin: auto;
+border-radius: 30px;
+}
+body{
+    background-color: pink;
+}
