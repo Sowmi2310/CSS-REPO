@@ -1,0 +1,89 @@
+body{
+    background-image: url( "https://files.123freevectors.com/wp-content/original/202643-light-color-plain-background-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+ }
+
+.container{
+    display: flex;
+   justify-content: space-between;
+   white-space: nowrap;
+   padding: 1px;
+   
+
+}
+.container1{
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    padding: 1px;
+}
+img{
+    width: 200px;
+    height: 250px;
+    margin-top: 15px;
+}
+.content2{
+    
+    margin-top: 15px;
+    background-color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 200px;
+    
+}
+.content3{
+    margin-top: 15px;
+    background-color:blue;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.content4{
+    margin-top: 15px;
+    background-color: yellow;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+.content5{
+    margin-top: 15px;
+    background-color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+.content6{
+    margin-top: 15px;
+    background-color: blue;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+.content7{
+    margin-top: 15px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+}
